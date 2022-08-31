@@ -36,6 +36,30 @@
 <p>The last task to be run will print out the public IP addresses of the loadbalancer (HAProxy) and the two webservers.  Point your browser to the IP address of the loadbalancer and you will be routed through to the Task Manager webapp.</p>
 <h1>Timings</h1>
 On average complete deployment (not including the image upload) for the main ntnxawsplay.yaml (ie. the whole 3-tier application and components) takes about 20-30 minutes - sometimes longer.  This is because the VMs have to install packages and updates as well as perform the installtion and customization of the application.
+<h2>Demo Flow</h2>
+<p>Try it out a few times to get used to the timings - things can take 20-30 minutes to deploy plus timing for database clones if you move on to a Nutanix Database Service (aka Era) demo.  Best have things pre-deployed and show how additional deployments are done.
+<ul>
+     <li>Show full deployment (pre-deployed)</li>
+     <li>Show / talk through components</li>
+     <li>Ask attendees to enter Tasks via the their devices (use public IP Address of the loadbalancer or public IP address of either webserver</li>
+     <li>Show a database clone happening</li>
+     <li>Delete some tasks</li>
+     <li>Use Microsoft SQL Server Studio to connect to the original and clones datbases and show difference in data.  You can show this by logging into the console of the Windows Server and start the program from there.</li>
+     <li>For the demo any passwords / userids you would have entered in vars/vars.yaml.
+</ul>
+<h2>Versions</h2>
+<p>Tested and working with:
+<ul>
+     <li>Client Workstation (VM under VirtualBox 6.1.36 r152435 (Qt5.6.3)): Ubuntu 20.04.1 LTS (jammy)</li>
+     <li>AOS: 5.20.2</li>
+     <li>Prism Central (PC): pc.2021</li>
+     <li>Ansible-core: 2.13.2 (Python 3.10.4)</li>
+     <li>Ansible: 6.2.0</li>
+     <li>Windows Server: 2019 </li>
+     <li>AWS: aws-cli/2.7.22 Python/3.9.11 Linux/5.15.0-46-generic exe/x86_64.ubuntu.22 </li>
+     <li>nutanix.ncp: </li>
+     <li>Nutanix Dtabase Service (aka Era): 2.4.1
+</ul>
 <h1>Issues and Observations</h1>
 <ul>
      <li>The ssh tunnels between the webservers and the database server will drop after about 2 hours - beware if demoing, advise setup maybe 45 minutes before needed.</li>
