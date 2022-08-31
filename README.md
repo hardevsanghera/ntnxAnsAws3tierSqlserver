@@ -57,7 +57,7 @@ On average complete deployment (not including the image upload) for the main ntn
      <li>Ansible: 6.2.0</li>
      <li>Windows Server: Microsoft Windows Server 2019 Standard Evaluation, OS Version: 10.0.17763 N/A Build 17763</li>
      <li>AWS: aws-cli/2.7.22 Python/3.9.11 Linux/5.15.0-46-generic exe/x86_64.ubuntu.22 </li>
-     <li>Nutanix Ansible Module: nutanix.ncp: </li>
+     <li>Nutanix Ansible Module: nutanix.ncp: 1.4.0</li>
      <li>Nutanix Database Service (aka Era): 2.4.1 (Optional - but not if you want to demo it).
 </ul>
 <h1>Issues and Observations</h1>
