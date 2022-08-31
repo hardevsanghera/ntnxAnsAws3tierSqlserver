@@ -83,7 +83,7 @@
         src: sysprep.j2
         dest: sysprep.txt
 
-    - name: (6 of 36) template SQL server SA password password into SQL Server installation script
+    - name: (6 of 36) template SQL server SA password into SQL Server installation script
       template:
         src: sqlsvr-installSqlServerps1.j2
         dest: sqlsvr-installSqlServer.ps1
