@@ -51,14 +51,14 @@ On average complete deployment (not including the image upload) for the main ntn
 <p>Tested and working with:
 <ul>
      <li>Client Workstation (VM under VirtualBox 6.1.36 r152435 (Qt5.6.3)): Ubuntu 20.04.1 LTS (jammy)</li>
-     <li>AOS: 5.20.2</li>
-     <li>Prism Central (PC): pc.2021</li>
+     <li>AOS: 5.20.1.1</li>
+     <li>Prism Central (PC): pc.2022.6</li>
      <li>Ansible-core: 2.13.2 (Python 3.10.4)</li>
      <li>Ansible: 6.2.0</li>
-     <li>Windows Server: 2019 </li>
+     <li>Windows Server: Microsoft Windows Server 2019 Standard Evaluation, OS Version: 10.0.17763 N/A Build 17763</li>
      <li>AWS: aws-cli/2.7.22 Python/3.9.11 Linux/5.15.0-46-generic exe/x86_64.ubuntu.22 </li>
-     <li>nutanix.ncp: </li>
-     <li>Nutanix Database Service (aka Era): 2.4.1
+     <li>Nutanix Ansible Module: nutanix.ncp: </li>
+     <li>Nutanix Database Service (aka Era): 2.4.1 (Optional - but not if you want to demo it).
 </ul>
 <h1>Issues and Observations</h1>
 <ul>
