@@ -58,7 +58,7 @@ On average complete deployment (not including the image upload) for the main ntn
      <li>Windows Server: 2019 </li>
      <li>AWS: aws-cli/2.7.22 Python/3.9.11 Linux/5.15.0-46-generic exe/x86_64.ubuntu.22 </li>
      <li>nutanix.ncp: </li>
-     <li>Nutanix Dtabase Service (aka Era): 2.4.1
+     <li>Nutanix Database Service (aka Era): 2.4.1
 </ul>
 <h1>Issues and Observations</h1>
 <ul>
