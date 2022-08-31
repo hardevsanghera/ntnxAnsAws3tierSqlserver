@@ -8,7 +8,7 @@
 nutanix_host: "10.10.10.10"                   #EDIT for your environment - Prism Central IP
 nutanix_username: "admin"                     #EDIT for your environment - Prism Central userid
 nutanix_password: "password"                  #EDIT for your environment - Prism Central password
-aws_key_file: "myawskeypem"                   #EDIT for your environment #ec2 login: the pem key to ssh to your ec2 instances 
+aws_key_file: "myawskey"                      #EDIT for your environment #ec2 login: the pem key to ssh to your ec2 instances 
                                               #**NO .pem suffix HERE for aws_key_file in previous line, NO!**
 aws_subnet: "subnet-0123556789abcdefa"        #EDIT for your environment #ec2 instance parameter
 aws_instance_type: "t2.micro"                 #EDIT for your environment #ec2 instance parameter
