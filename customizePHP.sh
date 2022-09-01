@@ -25,7 +25,7 @@ sed -i "s/\#005495\;/${colors[$webserveri]}/" "$phpdir/$phpfile"
 sed -i 's/Laravel Quickstart - Basic/Nutanix + Ansible Demonstration/' "$phpdir/$phpfile"
 sleep 1
 #Heading message and IP address of the targeted webserver
-sed -i "s/Task Manager v12.0<\/h2>/<h2 style=\"color: white;\">Task Manager Managed by Nutanix Self Service<\/h2><h2 style=\"color: white;\">[webserver IP: $myip]<\/h2>XXXXXX/" "$phpdir/$phpfile"
+sed -i "s/Task Manager v12.0<\/h2>/<h2 style=\"color: white;\">Task Manager Managed+Deployed by Nutanix+Ansible<\/h2><h2 style=\"color: white;\">[webserver IP: $myip]<\/h2>XXXXXX/" "$phpdir/$phpfile"
 sleep 1
 sed -i "s/XXXXXX/<a href=\"{{URL::asset('$archpicfile')}}\">See Architecture<\/a>/" "$phpdir/$phpfile"
 #Get jpg from github
